@@ -16,7 +16,7 @@ _Backend_:
 _Frontend_:
 - [x] Create React App.
 - [x] Connect to the API and view the directories and files in the drive.
-- [] Go to the specified directory when you click on the directory card.
-- [] Buttons/forms to upload files and create directories.
-- [] Button to rename and delete files and directories.
+- [ ] Go to the specified directory when you click on the directory card.
+- [ ] Buttons/forms to upload files and create directories.
+- [ ] Button to rename and delete files and directories.
 - [ ] Setup react ruoter that matches the requested path. 
