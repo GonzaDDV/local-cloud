@@ -1,0 +1,35 @@
+.container-directorios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background: rgb(36, 36, 36);
+    width: 15vw;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba($color: rgb(255, 255, 255), $alpha: 0.05);
+    margin: 1rem;
+    img {
+      height: 50px;
+    }
+    p {
+      flex: 1;
+      text-align: center;
+    }
+    cursor: pointer;
+  }
+
+  .archivo {
+    background: rgb(46, 63, 163);
+  }
+  .directorio {
+    background: rgb(55, 155, 51);
+  }
+}

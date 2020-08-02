@@ -1,0 +1,17 @@
+@import "./_cards";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #121212;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+.titulo-principal {
+  text-align: center;
+  font-size: 4em;
+  padding: 2em 0;
+}
